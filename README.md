@@ -49,6 +49,20 @@ Dataset available at: [Chest CT-Scan Images Dataset](https://www.kaggle.com/data
    - FedAvg algorithm for weight aggregation
    - Distribution of updated global model
 
+
+![Federated Learning Setup](images/fl_setup.png)
+*Figure 1: Architecture diagram showing the federated learning setup with multiple clients (hospitals) and central server*
+
+### Model Performance Comparison
+![Model Performance](https://github.com/user-attachments/assets/79e872a4-3743-4ca5-b668-bce47120ce50)
+
+*Figure 2: Performance comparison of different architectures on Chest CT scan dataset*
+
+### Transfer Learning Integration
+![Transfer Learning Integration](images/transfer_learning.png)
+*Figure 3: Integration of Transfer Learning with Federated Learning framework*
+
+
 ### Privacy Protection
 - Differential Privacy integration using DP Keras Adam Optimizer
 - Noise multiplier settings:
